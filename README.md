@@ -7,5 +7,6 @@ This repository contains several small projects. Quick links to four main projec
 - [asteroids](asteroids) — a simple Python asteroid game.
 - [gator-blog-aggregator](gator-blog-aggregator) — TypeScript blog aggregator cli (gator).
 - [pokedex](pokedex) — TypeScript CLI pokedex example.
+- [maze](maze) - A Simple Python TKInter Maze Solver
 
 See each project's README for details and how to run them.
