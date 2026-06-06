@@ -1,12 +1,12 @@
 import sys
 import pygame
 
-from asteroid import Asteroid
-from asteroidfield import AsteroidField
-from shot import Shot
-from player import Player
-from constants import SCREEN_WIDTH, SCREEN_HEIGHT
-from logger import log_state, log_event
+from asteroids.asteroid import Asteroid
+from asteroids.asteroidfield import AsteroidField
+from asteroids.shot import Shot
+from asteroids.player import Player
+from asteroids.constants import SCREEN_WIDTH, SCREEN_HEIGHT
+from asteroids.logger import log_state, log_event
 
 def main():
     print(f"Starting Asteroids with pygame version: {pygame.version.ver}")

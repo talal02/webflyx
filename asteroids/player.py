@@ -1,8 +1,8 @@
 import pygame
-from circleshape import CircleShape
-from shot import Shot
+from asteroids.circleshape import CircleShape
+from asteroids.shot import Shot
 
-from constants import PLAYER_RADIUS, LINE_WIDTH, PLAYER_TURN_SPEED, PLAYER_SPEED, PLAYER_SHOOT_SPEED, PLAYER_SHOOT_COOLDOWN_SECONDS
+from asteroids.constants import PLAYER_RADIUS, LINE_WIDTH, PLAYER_TURN_SPEED, PLAYER_SPEED, PLAYER_SHOOT_SPEED, PLAYER_SHOOT_COOLDOWN_SECONDS
 
 class Player(CircleShape):
     def __init__(self, x, y):
