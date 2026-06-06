@@ -1,0 +1,1 @@
+ALTER TABLE "feeds" ADD COLUMN "name" text NOT NULL;
